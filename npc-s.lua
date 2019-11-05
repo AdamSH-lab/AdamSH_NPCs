@@ -1,1 +1,0 @@
-print("^2successfully loaded: ^7GetNek_Mods ^2By: ^1AdamSH | ^3AdamSH_NPCs ")
